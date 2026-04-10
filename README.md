@@ -1,9 +1,9 @@
 # 🚀 EC2 Monitoring & Alerting System (AWS)
 
-## 📌 Overview
-This project demonstrates a simple monitoring and alerting system built on AWS using EC2, CloudWatch, and SNS.
+## 📌 Project Overview
+Designed and implemented a monitoring and alerting workflow on AWS to simulate real-world cloud operations.
 
-The goal was to simulate how real-world systems monitor performance and trigger alerts based on defined thresholds.
+This project demonstrates how cloud systems detect performance issues and trigger automated notifications using AWS services.
 
 ---
 
@@ -23,15 +23,15 @@ The goal was to simulate how real-world systems monitor performance and trigger 
 ## 🔄 Workflow
 
 1. EC2 instance launched using Launch Template  
-2. CloudWatch monitors CPU utilization  
-3. Alarm triggers when CPU exceeds threshold  
+2. CloudWatch continuously monitors CPU utilization  
+3. Alarm triggers when threshold is exceeded  
 4. SNS sends real-time email notification  
 
 ---
 
 ## 🧪 Testing
 
-To simulate high CPU usage:
+Simulated high CPU usage using:
 
 ```bash
 stress --cpu 2 --timeout 180
