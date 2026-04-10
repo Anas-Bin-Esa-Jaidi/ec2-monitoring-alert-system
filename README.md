@@ -31,11 +31,11 @@ Amazon CloudWatch enables tracking of system metrics, while alarms can trigger a
 
 ## 🔄 Workflow
 
-1. EC2 instance launched using Launch Template  
-2. CloudWatch continuously monitors CPU utilization  
-3. Alarm triggers when threshold is exceeded  
-4. SNS sends real-time email notification  
-
+- EC2 instance provisioned using Launch Template  
+- CloudWatch collects and monitors CPU metrics  
+- Alarm evaluates threshold breach conditions  
+- SNS triggers notification upon state change
+  
 ---
 
 ## 🧪 Testing
@@ -46,6 +46,11 @@ Simulated high CPU usage using:
 stress --cpu 2 --timeout 180
 
 ```
+
+## 📈 Outcome
+
+Successfully implemented an end-to-end monitoring pipeline capable of detecting system stress and triggering real-time alerts.
+
 ##  🔗 Connect with Me www.linkedin.com/in/anasbinesa
 
 If you found this useful or have suggestions, feel free to connect with me on LinkedIn.
