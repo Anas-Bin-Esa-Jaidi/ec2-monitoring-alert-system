@@ -46,6 +46,6 @@ Simulated high CPU usage using:
 stress --cpu 2 --timeout 180
 
 ```
-## Connect with Me www.linkedin.com/in/anasbinesa
+##  🔗 Connect with Me www.linkedin.com/in/anasbinesa
 
 If you found this useful or have suggestions, feel free to connect with me on LinkedIn.
